@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests"  name="Leads" verbose="5">
+  <test  name="Create">
+    <classes>
+      
+      <class name="week4.day2.CreateLead"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Edit">
+    <classes>
+      <class name="week4.day2.EditLead"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Duplicate">
+    <classes>
+    
+      <class name="week4.day2.DuplicateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
