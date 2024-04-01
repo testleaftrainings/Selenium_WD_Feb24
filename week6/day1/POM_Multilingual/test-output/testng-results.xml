@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43564" started-at="2024-04-01T10:32:41 IST" finished-at="2024-04-01T10:33:24 IST">
+    <groups>
+    </groups>
+    <test name="English" duration-ms="23965" started-at="2024-04-01T10:32:41 IST" finished-at="2024-04-01T10:33:05 IST">
+      <class name="testcases.TC_002_CreateLeadTC">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.TC_002_CreateLeadTC@491cc5c9]" name="preCondition" is-config="true" duration-ms="11786" started-at="2024-04-01T10:32:41 IST" finished-at="2024-04-01T10:32:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EnglishLang]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:testcases.TC_002_CreateLeadTC@491cc5c9]" name="runCreateLead" duration-ms="11155" started-at="2024-04-01T10:32:53 IST" finished-at="2024-04-01T10:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.TC_002_CreateLeadTC@491cc5c9]" name="postCondition" is-config="true" duration-ms="749" started-at="2024-04-01T10:33:04 IST" finished-at="2024-04-01T10:33:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC_002_CreateLeadTC -->
+    </test> <!-- English -->
+    <test name="French" duration-ms="19547" started-at="2024-04-01T10:33:05 IST" finished-at="2024-04-01T10:33:24 IST">
+      <class name="testcases.TC_002_CreateLeadTC">
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.TC_002_CreateLeadTC@2f0a87b3]" name="preCondition" is-config="true" duration-ms="8670" started-at="2024-04-01T10:33:05 IST" finished-at="2024-04-01T10:33:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FrenchLang]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead()[pri:0, instance:testcases.TC_002_CreateLeadTC@2f0a87b3]" name="runCreateLead" duration-ms="10276" started-at="2024-04-01T10:33:13 IST" finished-at="2024-04-01T10:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.TC_002_CreateLeadTC@2f0a87b3]" name="postCondition" is-config="true" duration-ms="596" started-at="2024-04-01T10:33:24 IST" finished-at="2024-04-01T10:33:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC_002_CreateLeadTC -->
+    </test> <!-- French -->
+  </suite> <!-- Suite -->
+</testng-results>
